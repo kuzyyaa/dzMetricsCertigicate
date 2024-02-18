@@ -22,7 +22,7 @@ public class MetricsService {
     }
 
     @PostConstruct
-    public void registerCertificateMetrics() {
+    public void registerMetricsService() {
         var keyStores = List.of(
                 "JKS",
                 "Windows-MY",
